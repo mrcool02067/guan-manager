@@ -1,0 +1,53 @@
+[package]
+name = "guan-manager"
+version = "0.1.0"
+description = "松鼠软件管家"
+authors = ["softsoft.pro"]
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+# The `_lib` suffix may seem redundant but it is necessary
+# to make the lib name unique and wouldn't conflict with the bin name.
+# This seems to be only an issue on Windows, see https://github.com/rust-lang/cargo/issues/8519
+name = "guan_manager_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2", features = [] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+tauri-plugin-opener = "2"
+tauri-plugin-dialog = "2"
+tauri-plugin-prevent-default = "4"
+tauri-plugin-single-instance = "2.3.4"
+windows = { version = "0.62", features = [
+  "Win32_Foundation",
+  "Win32_UI_Shell",
+  "Win32_UI_WindowsAndMessaging",
+  "Win32_Graphics_Gdi",
+  "Win32_System_Environment",
+  "Win32_System_Com",
+  "Win32_Storage_FileSystem"
+] }
+winreg = "0.55"
+png = "0.18"
+base64 = "0.22"
+tauri-plugin-store = "2"
+tauri-plugin-clipboard-manager = "2"
+tauri-plugin-os = "2"
+
+# 减少文件体积，配置完全来自官方 https://tauri.app/concept/size/
+[profile.dev]
+incremental = true # Compile your binary in smaller steps.
+
+[profile.release]
+codegen-units = 1 # Allows LLVM to perform better optimization.
+lto = true # Enables link-time-optimizations.
+opt-level = "z" # Prioritizes small binary size. Use `3` if you prefer speed.
+panic = "abort" # Higher performance by disabling panic handlers.
+strip = true # Ensures debug symbols are removed.

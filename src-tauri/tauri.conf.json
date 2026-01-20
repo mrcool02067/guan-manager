@@ -1,0 +1,44 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "identifier": "pro.softsoft.guan-manager",
+  "version": "0.1.0",
+  "productName": "guanManager",
+  "mainBinaryName": "guanManager",
+  "build": {
+    "beforeDevCommand": "pnpm dev",
+    "devUrl": "http://localhost:32123",
+    "beforeBuildCommand": "pnpm build",
+    "frontendDist": "../dist",
+    "removeUnusedCommands": true
+  },
+  "app": {
+    "windows": [
+      {
+        "title": "松鼠软件管家",
+        "width": 800,
+        "height": 600,
+        "center": true,
+        "maximized": true
+      }
+    ],
+    "security": {
+      "csp": null
+    }
+  },
+  "bundle": {
+    "active": true,
+    "createUpdaterArtifacts": false,
+    "targets": ["nsis"],
+    "publisher": "softsoft.pro",
+    "category": "Utility",
+    "shortDescription": "松鼠软件管家",
+    "longDescription": "松鼠软件管家",
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.icns",
+      "icons/icon.ico"
+    ]
+  }
+}
